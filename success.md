@@ -51,7 +51,7 @@ Programming proficiency involves inventing and implementing algorithms to solve 
 
 What does it mean to be a successful student?  A common misconception is that a successful student is one who earns high grades.  This is a very dangerous belief!
 
-In education, success is *learning*.  If, as a result of working through the material in this course, you become a proficient programming, then you have succeeded, regardless of what your grade is.
+In education, success is *learning*.  If, as a result of working through the material in this course, you become a proficient programmer, then you have succeeded, regardless of what your grade is.
 
 One reason it's important to stay focused on learning is that thinking about grades may tempt you to take shortcuts.  For example, [the syllabus](syllabus.html) allows collaboration on the programming assignments.  You could "complete" a programming assignment by copying someone else's work, without learning from the experience of doing the assignment.  This is not a good strategy, and it is likely to get you into trouble.
 
