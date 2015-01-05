@@ -30,7 +30,7 @@ None
 Textbook
 --------
 
-Kochan. [Programming in C](http://www.pearsonhighered.com/educator/product/Programming-in-C/9780672326660.page). Sams Publishing, 4th Edition, 2005, ISBN 0321776410
+Kochan. [Programming in C](http://www.pearsonhighered.com/educator/product/Programming-in-C/9780672326660.page). Sams Publishing, 4th Edition, 2014, ISBN 0321776410
 
 Learning Outcomes
 -----------------
