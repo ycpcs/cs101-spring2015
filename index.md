@@ -38,6 +38,10 @@ All information about the course will be posted here.
 -->
 
 * [Syllabus](syllabus.html)
+* [Schedule](schedule.html)
+* [How to succeed in CS 101](success.html)
+* [Labs](labs/index.html)
+* [Resources](resources.html)
 
 ## News
 
