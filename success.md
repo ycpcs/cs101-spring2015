@@ -73,7 +73,7 @@ In your career as a student, you may have taken courses where you were able to s
 
 ## Programming and computer science are for everyone
 
-You may notice that the student population in this course is skewed in terms of male vs. female students, races and ethnicities, gender, sexual identity, etc.
+You may notice that the student population in this course is skewed in terms of gender, races and ethnicities, sexual identity, etc.
 
 You should understand that you do not represent a "group": you are just you.  You should also be aware that your fellow students also represent only themselves, and it should go without saying that everyone is entitled to respect.  Finally, however you identify yourself, your opportunity to succeed is exactly the same as anyone else's.  Ability to learn and succeed is not in any way related to gender, race, etc.
 
