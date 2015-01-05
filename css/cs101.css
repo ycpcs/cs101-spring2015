@@ -1,0 +1,78 @@
+body {
+	margin: 0px 80px;
+}
+
+.pageheader h1 {
+	color: #228;
+	font-size: 200%;
+	background: #eee;
+	border: 1px solid transparent;
+	border-radius: 24px;
+	padding: 10px 20px;
+}
+
+.pageheader h1 a {
+	text-decoration: none;
+}
+
+.pageheader h1 a:hover {
+	background: black;
+	color: white;
+}
+
+.content {
+	padding: 0px 20px;
+	background: white;
+}
+
+.content h1 {
+	color: #228;
+	border-bottom: 2px solid #228;
+}
+
+.content h2, .content h3 {
+	color: #228;
+	border-bottom: 1px solid #228;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	text-align: center;
+	background: #eee;
+	border: 1px solid transparent;
+	border-radius: 16px;
+}
+
+.callout {
+	background: #fbb;
+	border: 4px solid red;
+	border-radius: 24px;
+	padding: 10px 40px;
+}
+
+div.linkcolumn ul {
+	width: 240px;
+	margin: 0 0;
+	float: left;
+}
+
+pre {
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #eee;
+	padding: 8px;
+	border: 1px solid #bbb;
+	overflow: auto; /* scroll if doesn't fit within page */
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr, th, td {
+	border: 1px solid black;
+	padding: 2px 6px;
+}
