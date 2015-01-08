@@ -23,7 +23,7 @@ A common misconception about computer programming is that there is some innate f
 
 Using the terminology of psychologist [Carol Dweck](http://psychology.stanford.edu/~dweck/), the "geek gene" misconception is an example of the "fixed" mindset.  Success stems from adopting the "growth" mindset, which is a belief that your pontential is not predetermined, and that through hard work, critical self-awareness, and discipline, anyone can become more successful.  Dweck's work has shown definitively that adopting a growth mindset leads to better outcomes.
 
-One important aspect of adopting a growth mindset is always being aware of opporunities for improvement.  There is always more to learn.
+One important aspect of adopting a growth mindset is always being aware of opportunities for improvement.  There is *always* more to learn.
 
 ## Expect to be confused
 
@@ -37,7 +37,7 @@ Let's say that you are writing a program, and it doesn't work the way you expect
 
 *Don't get discouraged*.  As we noted above, confusion is normal.
 
-*Experiment.*  Think about why your program doesn't work.  Form a theory about why the program doesn't work and *test it.*
+*Experiment.*  Think about why your program doesn't work.   Don't resort to undirected trial and error: form a theory about why the program doesn't work and *test it.*
 
 *Take a break.*  If you are really stuck, take a break and do something else for a while.  You will often find that when you come back, you will be able to look at the problem in a new way.
 
@@ -61,7 +61,7 @@ Please note that we're not saying that grades aren't important.  Grades are a ro
 
 You will have many opportunities to ask for help: in class, in office hours, in tutoring sessions, from your classmates outside of class, etc.
 
-However, it is critical that you ask *good* questions.  A good question is one that is *specific*, and which *contributes to your understanding*.  Questions like "How can I get my program to work?" aren't good questions, because they transfer the responsibility for learning and understanding away to someone else.
+However, it is critical that you ask *good* questions.  A good question is one that is *specific*, and which *contributes to your understanding*.  Questions like "How can I get my program to work?" aren't good questions, because they transfer the responsibility for learning and understanding away to someone else.  A better type of question is something like "Why is my program printing the value 4 at this line of code, when I expect it to print 5?"  That type of question can lead to a productive conversation about your understanding of the program.
 
 Always keep in mind that you are accountable for learning and understanding all of the course material, so make sure your questions help you achieve greater learning and understanding.
 
@@ -91,7 +91,9 @@ This section describes some practices you should adopt in order to be successful
 
 *Work individually*.  Although you are allowed to collaborate on labs and assignments, you will learn more if you work mostly on your own.  Occasionally getting some help is OK, but ultimately it is your responsibility to learn the material, and you should never deny yourself opportunities to learn and discover on your own.
 
-*Start assignments early*.  The best way to complete a programming assignment is to start them early, and then work incrementally, making steady progress towards completion of the assignment's requirements.  If you waiting until the last minute, you are denying yourself the opportunity to maximize your learning experience.
+**START ASSIGNMENTS EARLY**.  The best way to complete a programming assignment is to start them early, and then work incrementally, making steady progress towards completion of the assignment's requirements.  If you waiting until the last minute, you are denying yourself the opportunity to maximize your learning experience.
+
+*Put in the time.*  A *minimum* expectation for college courses are that you should spend two hours outside of class for every hour in class.  For CS 101, it is very possible that you will need *more* than six hours per week outside of class to keep up.
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
