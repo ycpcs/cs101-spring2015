@@ -5,7 +5,9 @@ title: "Schedule"
 
 This page lists the reading assignments, CloudCoder exercises, and recommended textbook exercises.
 
-Make sure that you do the readings and CloudCoder exercises for each class before you come to class!
+Make sure that you do the readings and CloudCoder exercises for each class *before* you come to class!  Please note that the CloudCoder exercises are very important for learning the material.  You should strive to complete all of the CloudCoder exercises for each reading.  At a minimum, you should *attempt* all of the CloudCoder exercises for each reading.
+
+The CloudCoder exercises marked with a gold star (![gold star](img/goldstar-tiny.png)) are *challenge problems*.  They are harder than the normal CloudCoder exercises; completing them demonstrates significant mastery of the course topics.  You should definitely try and complete these!
 
 The textbook exercises are optional, but are a very good way to get extra practice.
 
@@ -24,11 +26,11 @@ Feb 24th | [Lecture 8: Nested loops, char data type](lectures/lecture08.html), C
 Feb 26th | [Lecture 9: Arrays](lectures/lecture09.html), Chapter 6 through *Initializing Arrays* | Week6 &rarr; [Array Scanner](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=227), [Pair sums](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=228), [Exceeded Amount](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=229) | TBD
 Mar 3rd | No class, winter vacation | &nbsp; | &nbsp;
 Mar 5th | No class, winter vacation | &nbsp; | &nbsp;
-Mar 10th | Arrays, continued | Week8 &rarr; Not like the others | TBD
+Mar 10th | Arrays, continued | Week8 &rarr; [Not like the others](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=230) ![gold star](img/goldstar-tiny.png) | TBD
 Mar 12th | [Lecture 10: Multidimensional arrays](lectures/lecture10.html), Chapter 6, *Multidimensional Arrays* | Week8 &rarr;  | TBD
 Mar 17th | **Exam 2** | Exam2Review &rarr;
-Mar 19th | [Lecture 11: Functions, top-down design](lectures/lecture11.html), Chapter 7, through *Automatic Local Variables* | Week9 &rarr;  [PrintSum](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=231), [Deep Thought](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=232), [Find Primes](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=233) | TBD
-Mar 24th | [Lecture 12: Functions that return a value](lectures/lecture12.html), Chapter 7 through *Checking Function Arguments* | Week10 &rarr; [SumBetween](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=237), [MaxOfThree](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=238), [inRange](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=256), [diamond](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=257) | TBD
+Mar 19th | [Lecture 11: Functions, top-down design](lectures/lecture11.html), Chapter 7, through *Automatic Local Variables* | Week9 &rarr;  [PrintSum](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=231), [Deep Thought](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=232), [Find Primes](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=233) ![gold star](img/goldstar-tiny.png) | TBD
+Mar 24th | [Lecture 12: Functions that return a value](lectures/lecture12.html), Chapter 7 through *Checking Function Arguments* | Week10 &rarr; [SumBetween](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=237), [MaxOfThree](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=238), [inRange](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=256), [feetToMeters](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=255), [diamond](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=257) ![gold star](img/goldstar-tiny.png) | TBD
 Mar 26th | Functions reading/modifying exercise | Week10 &rarr; | &nbsp;
 Mar 31st | [Lecture 13: Arrays and functions](lectures/lecture13.html), through *Multidimensional Variable-Length Arrays and Functions* | Week11 &rarr; [ArraySum](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=234), [IsAscending](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=236), [countOdd](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=235) | TBD
 Apr 2nd | No class, spring vacation | &nbsp; | &nbsp;
