@@ -34,7 +34,7 @@ Mar 31st | [Lecture 13: Arrays and functions](lectures/lecture13.html), through 
 Apr 2nd | No class, spring vacation | &nbsp; | &nbsp;
 Apr 7th | [Lecture 14: Pointers, reference parameters](lectures/lecture14.html), Chapter 10, through *Using Pointers in Expressions* | Week12 &rarr; [AddEmUp](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=239) | TBD
 Apr 9th | **Exam 3** | Exam3Review &rarr; | &nbsp;
-Apr 14th | [Lecture 15: Struct types](lectures/lecture15.html), Chapter 9, *Using Structures in Expressions* | Week13 &rarr; [area of Rectangle](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=240) | TBD
+Apr 14th | [Lecture 15: Struct types](lectures/lecture15.html), Chapter 9, through *Using Structures in Expressions* | Week13 &rarr; [area of Rectangle](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=240) | TBD
 Apr 16th | [Lecture 16: Using structs with functions](lectures/lecture16.html), Chapter 8, through *Initializing Structures* | Week13 &rarr; | TBD
 Apr 21st | [Lecture 17: Pointers to structures](lectures/lecture17.html), Chapter 10, *Working with Pointers and Structures* | Week14 &rarr; | TBD
 Apr 23rd | [Lecture 18: Composition](lectures/lecture18.html), Chapter 8, *Structures containing Structures* and *Structures containing Arrays* | Week14 &rarr; | TBD
