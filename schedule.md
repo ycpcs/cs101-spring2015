@@ -27,14 +27,14 @@ Mar 5th | No class, winter vacation | &nbsp; | &nbsp;
 Mar 10th | Arrays, continued | Week8 &rarr; Not like the others | TBD
 Mar 12th | [Lecture 10: Multidimensional arrays](lectures/lecture10.html), Chapter 6, *Multidimensional Arrays* | Week8 &rarr;  | TBD
 Mar 17th | **Exam 2** | Exam2Review &rarr;
-Mar 19th | [Lecture 11: Functions, top-down design](lectures/lecture11.html), Chapter 7, through *Automatic Local Variables* | Week9 &rarr;  Print sum, Deep Thought, Find Primes | TBD
-Mar 24th | [Lecture 12: Functions that return a value](lectures/lecture12.html), Chapter 7 through *Checking Function Arguments* | Week10 &rarr; SumBetween, MaxOfThree, inRange, diamond | TBD
+Mar 19th | [Lecture 11: Functions, top-down design](lectures/lecture11.html), Chapter 7, through *Automatic Local Variables* | Week9 &rarr;  [PrintSum](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=231), [Deep Thought](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=232), [Find Primes](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=233) | TBD
+Mar 24th | [Lecture 12: Functions that return a value](lectures/lecture12.html), Chapter 7 through *Checking Function Arguments* | Week10 &rarr; [SumBetween](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=237), [MaxOfThree](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=238), [inRange](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=256), [diamond](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=257) | TBD
 Mar 26th | Functions reading/modifying exercise | Week10 &rarr; | &nbsp;
-Mar 31st | [Lecture 13: Arrays and functions](lectures/lecture13.html), through *Multidimensional Variable-Length Arrays and Functions* | Week11 &rarr; | TBD
+Mar 31st | [Lecture 13: Arrays and functions](lectures/lecture13.html), through *Multidimensional Variable-Length Arrays and Functions* | Week11 &rarr; [ArraySum](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=234), [IsAscending](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=236), [countOdd](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=235) | TBD
 Apr 2nd | No class, spring vacation | &nbsp; | &nbsp;
-Apr 7th | [Lecture 14: Pointers, reference parameters](lectures/lecture14.html), Chapter 10, through *Using Pointers in Expressions* | Week12 &rarr; | TBD
+Apr 7th | [Lecture 14: Pointers, reference parameters](lectures/lecture14.html), Chapter 10, through *Using Pointers in Expressions* | Week12 &rarr; [AddEmUp](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=239) | TBD
 Apr 9th | **Exam 3** | Exam3Review &rarr; | &nbsp;
-Apr 14th | [Lecture 15: Struct types](lectures/lecture15.html), Chapter 9, *Using Structures in Expressions* | Week13 &rarr; | TBD
+Apr 14th | [Lecture 15: Struct types](lectures/lecture15.html), Chapter 9, *Using Structures in Expressions* | Week13 &rarr; [area of Rectangle](https://cs.ycp.edu/cloudcoder/#exercise?c=8,p=240) | TBD
 Apr 16th | [Lecture 16: Using structs with functions](lectures/lecture16.html), Chapter 8, through *Initializing Structures* | Week13 &rarr; | TBD
 Apr 21st | [Lecture 17: Pointers to structures](lectures/lecture17.html), Chapter 10, *Working with Pointers and Structures* | Week14 &rarr; | TBD
 Apr 23rd | [Lecture 18: Composition](lectures/lecture18.html), Chapter 8, *Structures containing Structures* and *Structures containing Arrays* | Week14 &rarr; | TBD
