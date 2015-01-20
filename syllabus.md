@@ -134,6 +134,10 @@ Students will work on programs during most class periods. At the end of the clas
 
 where *absences* is the number of times you were absent. Therefore, with 5 absences (2.5 weeks), you will have a 16 percentage point deduction, which will automatically drop you 1.5 to 2 letter grades. If you have an emergency and cannot attend your section, you may come to another section with permission from the instructor of that section. Always notify the instructor **before** the class if you have to miss class. It is the student's responsibility to get notes, announcements, and homework assignments from other students or the instructor if a class is missed. An absence will be excused only with written proof of an illness or other emergency.
 
+### Disability accomodation
+
+If you had an IEP or 504 plan in high school or if you have a disability or health condition that impacts you in the classroom, please contact Linda Miller, Director of Disability Support Services, at 815-1785 or <lmille18@ycp.edu> to discuss obtaining the accommodations for which you may be eligible. If you already have an accommodation memo and wish to access your accommodations in this class, please see me confidentially to discuss.
+
 ### Use of Personal Technology in the Classroom
 
 While York College recognizes students' need for educational and emergency-related technological devices such as laptops, PDA's, cellular phones, etc., using them unethically or recreationally during class time is never appropriate. The college recognizes and supports faculty members' authority to regulate in their classrooms student use of all electronic devices.
