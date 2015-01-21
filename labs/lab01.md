@@ -8,7 +8,11 @@ In this lab, you will learn how to use the cygwin/gcc environment to write, comp
 Getting Started
 ===============
 
-**(1)** First, start the cygwin bash shell. This is available from the **Start** menu on all of the computers in the KEC building. The full path in the menu is:
+**(1)** Note that the first step will be slightly different, depending on whether you are using Linux (KEC 119) or Windows (any other KEC lab).
+
+**Windows**
+
+Start the cygwin bash shell. This is available from the **Start** menu on all of the computers in the KEC building. The full path in the menu is:
 
 > **Start &rarr; All Programs &rarr; Cygwin &rarr; Cygwin Terminal**
 
@@ -18,11 +22,18 @@ Once the cygwin bash shell has started, type the following commands, pressing th
     mkdir -p CS101
     cd CS101
 
-The first command navigates to your **H:** drive. The second command creates a directory in your **H:** drive called **CS101**. The third command navigates into the newly-created **CS101** directory.
+**Linux**
 
-**(2)** Using a web browser, download [CS101\_Lab01.zip](CS101_Lab01.zip). Save the zip file in the **H:\\CS101** directory.
+Start a terminal by opening the Mint menu and choosing **Accessories &rarr; Terminal**.
 
-**(3)** From the Cygwin bash shell, run the following command:
+In the terminal, run the commands:
+
+    mkdir -p CS101
+    cd CS101
+
+**(2)** Using a web browser, download [CS101\_Lab01.zip](CS101_Lab01.zip). Save the zip file in the **CS101** directory within your home directory.
+
+**(3)** From the Cygwin bash shell or terminal, run the following command:
 
     unzip CS101_Lab01.zip
 
@@ -37,13 +48,17 @@ When you run this command, you should see output looking something like the foll
 
     cd CS101_Lab01
 
-**(5)** Start the **Notepad++** text editor. This is available from the **Start** menu:
+**(5)** Start the **Notepad++** (Windows) or **Pluma** (Linux) text editor.
+
+On Windows, Notepad++ is available from the **Start** menu:
 
 > **Start &rarr; All Programs &rarr; Notepad++ &rarr; Notepad++**
 
-Once **Notepad++** has started, choose **File-\>Open** from the menu, and open the file
+On Linux, Pluma is available by opening the Mint menu and choosing **Accessories &rarr; Text editor**.
 
-> **H:\\CS101\\CS101\_Lab01\\hello.cpp**
+Once your text editor has started, choose **File&rarr;Open** from the menu, and open the file
+
+> **CS101\_Lab01/hello.cpp**
 
 Your Task
 =========
