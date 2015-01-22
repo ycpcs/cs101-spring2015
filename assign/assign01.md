@@ -10,9 +10,15 @@ Getting Started
 
 Start by downloading [CS101\_Assign01.zip](CS101_Assign01.zip), saving it in the directory **CS101** within your home directory.
 
-Start a **Cygwin Bash Shell** (or Linux terminal) and run the following commands:
+If you are on Windows, start a **Cygwin Bash Shell** and run the following commands:
 
-    cd $HOME
+    cd h:
+    cd CS101
+    unzip CS101_Assign01.zip
+    cd CS101_Assign01
+
+If you are on Linux, start a terminal and run the following commands:
+
     cd CS101
     unzip CS101_Assign01.zip
     cd CS101_Assign01
@@ -23,7 +29,7 @@ Using **Notepad++** (or a Linux text editor such as Pluma), open the file
 
 You will add your code to this file.
 
-When you are ready to compile the program, in the Cygwin window type the command
+When you are ready to compile the program, in the Cygwin bash shell (or Linux terminal) window type the command
 
     make
 
