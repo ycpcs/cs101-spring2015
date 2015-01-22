@@ -24,7 +24,7 @@ Once the cygwin bash shell has started, type the following commands, pressing th
 
 **Linux**
 
-Start a terminal by opening the Mint menu and choosing **Accessories &rarr; Terminal**.
+Start a terminal by opening the Mint menu and choosing **System Tools &rarr; Terminal**.
 
 In the terminal, run the commands:
 
