@@ -3,8 +3,6 @@ layout: default
 title: Syllabus
 ---
 
-*Preliminary syllbus, not official yet*
-
 CS 101 - Introduction to Computer Science I
 ===========================================
 
