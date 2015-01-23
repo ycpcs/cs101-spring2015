@@ -10,7 +10,7 @@ CS 101 - Introduction to Computer Science I
 
 Instructors:
 
-- Section 101: [David Hovemeyer](http://faculty.ycp.edu/~dhovemey/), <dhovemey@ycp.edu>, Office hours TBD
+- Section 101: [David Hovemeyer](http://faculty.ycp.edu/~dhovemey/), <dhovemey@ycp.edu>, Office hours MWF 10-11, T/Th 11-12
 - Section 102: Deepti Jindal, <djindal@ycp.edu>, Office hours TBD
 - Section 103: Kevin Huggins, <khuggins2@ycp.edu>, Office hours TBD
 - Sections 104, 105, 106: Morris Miller, <mmmiller@ycp.edu>, Office hours TBD
