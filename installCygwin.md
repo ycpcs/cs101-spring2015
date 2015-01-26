@@ -56,7 +56,7 @@ You will need to install the following packages:
 > Category | Packages
 > -------- | --------
 > Archive  | zip, unzip
-> Devel    | gcc-g++, libncursesw-devel, make
+> Devel    | gcc-g++, libncurses-devel, make
 > Interpreters | perl
 > Net      | curl, openssh
 
