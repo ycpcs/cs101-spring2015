@@ -17,6 +17,7 @@ All information about the course will be posted here.
 * [Labs](labs/index.html)
 * [Resources](resources.html)
 * [Tutoring](tutoring.html)
+* [Submitting labs and assignments](submitting.html)
 
 ## News
 
