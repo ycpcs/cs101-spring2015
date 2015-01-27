@@ -21,7 +21,7 @@ The in-class tutors are
 * Section 101: Mike Marsh
 * Section 102: Garrett Fellman
 * Section 103: Garrett Fellman
-* Section 104: 
+* Section 104: Martin Schmidt
 * Section 105: Martin Schmidt
 * Section 106: Mike Marsh
 
