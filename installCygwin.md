@@ -5,6 +5,10 @@ title: Installing Cygwin
 
 This page describes how to install the [cygwin](http://cygwin.com/) tools you will need to compile, run, and submit programs in CS 101 on a Windows system.
 
+<div class="callout">
+In order to use the Cygwin tools to compile and run programs, you may need to configure your antivirus software to avoid scanning the directories containing your programs.  For example, the free version of Avast may delete the executable (<code>.exe</code>) files created by the <code>make</code> command, making it impossible to run your program.
+</div>
+
 **Step 1**: Go to <http://cygwin.com/>. Click the **Install Cygwin** tab in the left hand column and click the **setup.exe** to download the setup program. Run the setup program which you just downloaded.
 
 You should see the following window:
