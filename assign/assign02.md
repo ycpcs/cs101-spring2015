@@ -134,7 +134,7 @@ Add **\#include &lt;stdlib.h&gt;** and **\#include &lt;time.h&gt;** to the top o
 
 The first line of code in your **main** function should be
 
-{% highlight java %}
+{% highlight cpp %}
 srand(time(0));
 {% endhighlight %}
 
@@ -142,7 +142,7 @@ This "seeds" the random number generator to ensure that your program produces a 
 
 You can generate a random integer between 1 and 3 with the code
 
-{% highlight java %}
+{% highlight cpp %}
 int car = (rand() % 3) + 1;
 {% endhighlight %}
 
