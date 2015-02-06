@@ -28,19 +28,19 @@ Write a program that provides some feedback on the weather conditions given the 
 
 Your program should prompt the user to enter the current temperature and the chance for precipitation (as a percentage). Based on the temperature, your program should then print one of the following messages:
 
--   If the temperature is **higher than 90 degrees**, print:  
+-   If the temperature is **greater than or equal to 90 degrees**, print:  
     *"It's a scorcher!"*
 
--   If the temperature is **below 90 degrees, but higher than 70 degrees**, print:  
+-   If the temperature is **below 90 degrees, but higher than or equal to 70 degrees**, print:  
     *"It's a warm day."*
 
--   If the temperature is **below 70 degrees, but higher than 32 degrees**, print:  
+-   If the temperature is **below 70 degrees, but higher than or equal to 32 degrees**, print:  
     *"It's a cool day."*
 
 -   If the temperature is **below 32 degrees, but higher than 0 degrees**, print:  
     *"It's very cold outside."*
 
--   If the temperature is **below 0 degrees**, print:  
+-   If the temperature is **0 degrees and below**, print:  
     *"You'll freeze out there."*
 
 **Additionally**, your program should simulate the weather to determine whether or not it rained. To do this, first generate a random number such that there are 100 possible values (e.g., 0 to 99, or 1 to 100). If the generated number is less than the percent chance of precipitation entered by the user, then your program should indicate that it has precipitated. Otherwise, your program should indicate that it has not precipitated.
