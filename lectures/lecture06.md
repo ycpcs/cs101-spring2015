@@ -94,7 +94,7 @@ When you need to write a loop, sometimes it's not obvious to know how to get sta
 
 Fortunately, many loops are based on a standard "recipe". If you know the recipes, you can start with a basic version of the loop, and then customize it to meet your needs.
 
-Often, all you will need to know is the number of times the body of the loop should execute. We will be this **n** in the recipes below.
+Often, all you will need to know is the number of times the body of the loop should execute. We will call this **n** in the recipes below.
 
 Count up from 1 to n
 --------------------
