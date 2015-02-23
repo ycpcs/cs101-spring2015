@@ -33,7 +33,7 @@ You will add your code to this file.
 
 # Your Task
 
-Major League Baseball (MLB) season starts on 5 April this year.   Along with the hot dogs and popcorn, there will be hits, strikes, and homeruns.  Included with this great national tradition is the collection of player and team statistics.  Over the years, many people have developed to capture these numbers, e.g.  Sean Lahman (see http://www.seanlahman.com/baseball-archive/statistics/).
+Major League Baseball (MLB) season starts on 5 April this year.   Along with the hot dogs and popcorn, there will be hits, strikes, and homeruns.  Included with this great national tradition is the collection of player and team statistics.  Over the years, many people have developed databases to capture these numbers, e.g.  Sean Lahman (see http://www.seanlahman.com/baseball-archive/statistics/).
 
 Declare an array that will hold the batting averages (values between 0 and 1000) of a given year. From this set, calculate the mean, median, and standard deviation.  We provide a function that sorts that array for the median calculation.  Finally, output a histogram using the following guidelines:
 
@@ -58,9 +58,9 @@ The following files are in the **CS101\_Assign03** directory:
 * **submitToMarmoset.pl** &mdash; used to submit your assignment to the Marmoset server
 * **Utils.cpp** &mdash; this file contains functions that you will use in **Statistics.cpp**.  It includes the following functions.
 
-  * `int getFileSize(char FileName[])` &mdash; given a file name (as a string) , this function will return the number of lines in that file.
+  * `int getFileSize(char fileName[])` &mdash; given a file name (as a string) , this function will return the number of lines in that file.
   * `void  initializeArray( int list[], int size)` &mdash; given an integer array and its size, this function initializes the given array to all zeroes.  
-  * `void loadArray(int list[], int size, char filename[])` &mdash; given an integer array, it’s size, and a file name as a string, this function will load the batting averages from the given file into the given array.
+  * `void loadArray(int list[], int size, char fileName[])` &mdash; given an integer array, it’s size, and a file name as a string, this function will load the batting averages from the given file into the given array.
   * `void sortArray(int list[], int size)` &mdash; given an integer array and its size, this function sorts the array in ascending order.
 
 * 2014.txt &mdash; data file with batting averages for all MLB players for the 2014 season.
@@ -68,7 +68,7 @@ The following files are in the **CS101\_Assign03** directory:
 
 The following is the sample output when the “2005.txt” file is used.
 
-    Array size:   988
+    Array size:             988
     Mean:                   203.03
     Standard deviation:     132.17
     Median:                 238
