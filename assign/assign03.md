@@ -101,7 +101,7 @@ The following is the sample output when the “2005.txt” file is used.
 
 ## Hints
 
-* Declare an array to hold each batting average.
+* Declare an integer array to hold each batting average.
 * Declare a second integer array with 10 elements to store the counts of batting averages to be used for the histogram. 
 * Use the provided functions in **Utils.cpp**.  But do not modify this file!
 
