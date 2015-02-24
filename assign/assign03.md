@@ -66,6 +66,8 @@ The following files are in the **CS101\_Assign03** directory:
 * 2014.txt &mdash; data file with batting averages for all MLB players for the 2014 season.
 * 2005.txt &mdash; data file with batting averages for all MLB players for the 2005 season.
 
+**Calling a function:** There are hints in the `Statistics.cpp` file to help you with calling the functions located in the `Utils.cpp` file.  Please refer to pp. 119 &mdash; 130 in the text for more details on functions.
+
 The following is the sample output when the “2005.txt” file is used.
 
     Array size:             988
