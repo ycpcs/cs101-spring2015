@@ -89,15 +89,15 @@ The following is the sample output when the “2005.txt” file is used.
 
 ## Grading
 
-60% level - program compiles
+50% level - program compiles
 
-70% level - obtain user input and properly compute the time
+60% level - properly declare and load arrays
 
-80% level - compute the final velocity in m/sec
+70% level - properly calculate and output the mean, median, and standard deviation
 
-90% level - compute the final velocity in ft/sec and mph
+80% level - properly calculate and output the histogram
 
-100% level - format the output correctly
+90% level - proper coding style
 
 ## Hints
 
