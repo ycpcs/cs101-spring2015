@@ -87,6 +87,18 @@ The following is the sample output when the “2005.txt” file is used.
     [801 -  900]      0:
     [901 - 1000]      6:
 
+## Grading
+
+60% level - program compiles
+
+70% level - obtain user input and properly compute the time
+
+80% level - compute the final velocity in m/sec
+
+90% level - compute the final velocity in ft/sec and mph
+
+100% level - format the output correctly
+
 ## Hints
 
 * Declare an array to hold each batting average.
