@@ -6,7 +6,7 @@ title: "Assignment 2: Let's Make A Deal"
 **Due dates:**
 
 -   Milestone 1 is due Wednesday, Feb 11th by 11:59 PM
--   Milestone 2 is due Tuesday, Feb 24th by 11:59 PM
+-   Milestone 2 is due <strike>Tuesday, Feb 24th</strike>Wednesday, Feb 25th by 11:59 PM
 
 Getting Started
 ===============
