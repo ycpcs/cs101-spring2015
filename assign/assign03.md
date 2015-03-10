@@ -3,6 +3,8 @@ layout: default
 title: "Assignment 3: Take Me Out To The Ballgame"
 ---
 
+*Update 3/10* &mdash; The **Hints** section has been updated with information about computing the standard deviation
+
 **Due**: Friday, March 13th by 11:59 PM
 
 Primary course learning outcomes supported by this assignment:
@@ -102,6 +104,7 @@ The following is the sample output when the “2005.txt” file is used.
 * Declare an integer array to hold each batting averages (this is provided to you).
 * Declare a second integer array with 10 elements to store the counts of batting averages to be used for the histogram. 
 * Use the provided functions in **Utils.cpp**.  But do not modify this file!
+* See <http://www.mathsisfun.com/data/standard-deviation.html> for an explanation of how to compute the standard deviation
 
 # Submitting
 
