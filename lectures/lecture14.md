@@ -152,7 +152,7 @@ You're probably saying to yourself,
 
 One important use of pointers is to implement *reference parameters*. A reference parameter is a parameter to a function that is able to modify a variable whose address (pointer) is passed as a parameters. One common use of reference parameters is to allow a function to "return" multiple values.
 
-For example, as we saw in [Lab 11](../labs/lab11.html), a arbitrary color can be represented red, green, and blue color component values in the range 0..255. To compute a random color, we can generate three random integers in this range. Because a function can only directly return a single value, we can't declare the function to return all three values directly. However, we *can* declare the function to take three parameters, each of which is a pointer to **int**. The parameters will point to the variables in which the three random integers should be stored.
+For example, as we saw in [Lab 12](../labs/lab12.html), a arbitrary color can be represented red, green, and blue color component values in the range 0..255. To compute a random color, we can generate three random integers in this range. Because a function can only directly return a single value, we can't declare the function to return all three values directly. However, we *can* declare the function to take three parameters, each of which is a pointer to **int**. The parameters will point to the variables in which the three random integers should be stored.
 
 Here is an example program to demonstrate this idea:
 
