@@ -23,6 +23,7 @@ All information about the course will be posted here.
 
 ## News
 
+* **Mar 30** - Exam 3 will take place in class on Thursday, April 9th.  The exam format will be the same as exams 1 and 2.  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Mar 17** - [Assignment 4](assign/assign04.html) is due Thursday, Mar 26th by 11:59 PM.
 * **Mar 10** - Exam 2 will take place in class on Tuesday, Feb 17th.  The exam will be closed book and closed notes (but you may use the [reference card](refcard.pdf)).  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Mar 10** - The description of [Assignment 3](assign/assign03.html) has been updated with information about computing the standard deviation.
