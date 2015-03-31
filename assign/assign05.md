@@ -217,19 +217,21 @@ In the animations above, colors are used to indicate the number of generations f
 
 For milestone 1 (full credit is 50 points):
 
-* `init_random_board` function: 20
-* `print_board` function: 20
-* the program uses the functions correctly on the `board` array: 10
+* `init_random_board` function: 15
+* `print_board` function: 15
+* the program uses the functions correctly on the `board` array: 15
+* good coding style: 5
 
 For milestone 2 (full credit is 100 points):
 
 * `get_cell` function: 10
 * `count_neighbors` function: 10
-* `compute_next_gen` function: 40
-* simulates requested number of generations: 20
+* `compute_next_gen` function: 35
+* simulates requested number of generations: 15
 * output final generation: 20
+* good coding style: 10
 
-Note that for both milestones, we expect you to use good coding style, including correct indentation, choosing meaningful variable names, and adding appropriate comments..  Points may be deducted for poor style.
+Note that for both milestones, we expect you to use good coding style, including correct indentation, choosing meaningful variable names, and adding appropriate comments.
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
