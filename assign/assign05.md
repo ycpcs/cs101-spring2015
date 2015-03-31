@@ -3,7 +3,9 @@ layout: default
 title: "Assignment 5: Conway's Game of Life"
 ---
 
-**Due**: TBD
+**Milestone 1**: Due Friday, April 10th by 11:59 PM
+
+**Milestone 2**: Due Friday, April 17th by 11:59 PM
 
 # Getting Started
 
@@ -78,13 +80,72 @@ The `compute_next_gen` function should update the array passed as the parameter 
 
 When the program starts, it will prompt the user to either load initial game data from a file, or generate a random initial game state (by calling your `init_random_board` function.)  It will also prompt the user for a number of generations to simulate.
 
-You should modify the program so that it:
+## Milestone 1
 
-1. Prints the initial game state (using the `print_board` function)
-2. Simulates the specified number of generations
-3. Prints the final game state (again, using the `print_board` function)
+For the first milestone, modify the program so that it prints the initial game state using the `print_board` function.  (The program will not use the input number of generations for this milestone.)  Note that you will need to implement the `init_random_board` function, since it is called from the initialization code.  You will need to add the code to print the initial game state.
 
-Here is an example run:
+Example runs:
+
+<pre>
+(0) Load from file, or (1) initialize random board? <b>0</b>
+Name of file to load: <b>glider.dat</b>
+How many generations? <b>10</b>
+Initial board:
+............................................................
+...*........................................................
+.*.*........................................................
+..**........................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+</pre>
+
+<pre>
+(0) Load from file, or (1) initialize random board? <b>1</b>
+How many generations? <b>10</b>
+Initial board:
+**.*.................*..*...*..*..*....*.*..**........*.....
+...**......**..*.....*........**..*....*..*......*..*.......
+*...*...**........**.............*.........*...........*....
+...*......*.*.....*.***.....*.*.....*...*..*.*.*.......*.*.*
+........*..***.........****.*.........*.*.***...*.*.........
+*....**..*........*...*.*...*..*...............*............
+.....**...***.......**...........*.**........***............
+**...*....*.*.......*....*...**......*....*...**....*......*
+....***..*......*.......*...................*...*........*.*
+...*...**....**..*........**..*..*...*....*..*..*.*...*..*.*
+*....***.*.*...*.*........*......*.*.........*..*...*.......
+.....*.......**.*..***.***....*........*.....*...*..*..*.*.*
+...*......*...**......*.*...........*.*..****.*.....*..***..
+..**...*...*.**..*.*........*...*.......*.....**..*.*.*.....
+*.**....*..*....*.....*.**......*.....*.......*.............
+.*...***...*..*..*......*.*.*......**....*......**..........
+..*.....*..*....*..*....*.*.....*...*..*..*.*.***.........*.
+....*..*.**.....*....*..***..*.*.**....*..*...**.*.***.**...
+.*.....**.*..**..........*......*......*......*.*..........*
+*..***.....**.......***...*.*..*................***..***....
+</pre>
+
+Note that you will probably see a different random initial state.
+
+## Milestone 2
+
+For the second milestone, modify the program so that it simulates the specified number of generations and prints the final game state using the `print_board` function.
+
+Example run:
 
 <pre>
 (0) Load from file, or (1) initialize random board? <b>0</b>
@@ -133,6 +194,42 @@ Final board:
 ............................................................
 ............................................................
 </pre>
+
+## Insane extra credit
+
+In milestone 2, for up to 30 points of extra credit, allow the user to request an animation showing each intermediate state of the simulation.  Use the terminal graphics functions described in [Lab 17](../labs/lab17.html).  You can use the `cons_sleep_ms` function to pause the program for a given number of milliseconds &mdash; each frame of the animation should be visible for a short period of time, perhaps 250 milliseconds.
+
+Example run, showing the `glider.dat` input file:
+
+> ![glider animation](images/glider-animation.gif)
+
+Example run, showing random input:
+
+> ![random animation](images/random-animation.gif)
+
+In the animations above, colors are used to indicate the number of generations for which cells have been alive: white cells are new, bright green cells have been alive for 2 generations, darker green cells have been alive for 3 generations, etc.
+
+<div class="callout">
+<b>Important</b>: The standard features of milestone 2 must still work as described.  Don't implement the extra credit until the standard features are working.
+</div>
+
+# Grading
+
+For milestone 1 (full credit is 50 points):
+
+* `init_random_board` function: 20
+* `print_board` function: 20
+* the program uses the functions correctly on the `board` array: 10
+
+For milestone 2 (full credit is 100 points):
+
+* `get_cell` function: 10
+* `count_neighbors` function: 10
+* `compute_next_gen` function: 40
+* simulates requested number of generations: 20
+* output final generation: 20
+
+Note that for both milestones, we expect you to use good coding style, including correct indentation, choosing meaningful variable names, and adding appropriate comments..  Points may be deducted for poor style.
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
