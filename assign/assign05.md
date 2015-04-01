@@ -233,6 +233,30 @@ For milestone 2 (full credit is 100 points):
 
 Note that for both milestones, we expect you to use good coding style, including correct indentation, choosing meaningful variable names, and adding appropriate comments.
 
+# Submitting
+
+To submit your work, make sure your **GameOfLife.cpp** file is saved, and in the Cygwin window type one of the following commands (depending on whether you are submitting **Milestone 1** or **Milestone 2**).
+
+For **Milestone 1**:
+
+    make submit_ms1
+
+File **Milestone 2**:
+
+    make submit_ms2
+
+Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
+
+If the **make** commands above do not work, you can [submit using the web interface](../submitting.html) (see the link for details).
+
+**Important**: Make sure that you check the file(s) you submitted to ensure that they are correct. Log into the server using the following URL (also linked off the course homepage):
+
+> <https://cs.ycp.edu/marmoset/>
+
+You should see a list of labs and assignments. In the row for **assign05\_ms1** (milestone 1) or **assign05\_ms2** (milestone 2), click the link labeled **view**. You will see a list of your submissions. Download the most recent one (which should be listed first). Verify that it contains the correct files.
+
+**You are responsible for making sure that your submission contains the correct file(s).**
+
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
