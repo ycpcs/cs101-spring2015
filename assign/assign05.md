@@ -207,7 +207,7 @@ Example run, showing random input:
 
 > ![random animation](images/random-animation.gif)
 
-In the animations above, colors are used to indicate the number of generations for which cells have been alive: white cells are new, bright green cells have been alive for 2 generations, darker green cells have been alive for 3 generations, etc.
+In the animations above, colors are used to indicate the number of generations for which cells have been alive: white cells are new, bright yellow cells have been alive for 2 generations, bright green cells have been alive for 3 generations, etc.
 
 <div class="callout">
 <b>Important</b>: The standard features of milestone 2 must still work as described.  Don't implement the extra credit until the standard features are working.
