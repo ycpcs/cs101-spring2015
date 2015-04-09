@@ -23,6 +23,7 @@ All information about the course will be posted here.
 
 ## News
 
+* **Apr 9** - The due dates for the milestones for [Assignment 5](assign/assign05.html) have been extended to Monday, April 13th and Monday, April 20th respectively.
 * **Apr 1** - [Assignment 5](assign/assign05.html) has two milestones.  Milestone 1 is due Friday, April 10th by 11:59 PM, and Milestone 2 is due Friday, April 17th by 11:59 PM.
 * **Mar 31** - Please note that there will be no evening tutoring on Wednesday, April 1st.
 * **Mar 30** - Exam 3 will take place in class on Thursday, April 9th.  The exam format will be the same as exams 1 and 2.  A practice exam is available on the [Practice Exams](practice/index.html) page.

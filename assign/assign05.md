@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 5: Conway's Game of Life"
 ---
 
-**Milestone 1**: Due Friday, April 10th by 11:59 PM
+**Milestone 1**: Due <strike>Friday, April 10th</strike> Monday, April 13th by 11:59 PM
 
-**Milestone 2**: Due Friday, April 17th by 11:59 PM
+**Milestone 2**: Due <strike>Friday, April 17th</strike> Monday, April 20th by 11:59 PM
 
 # Getting Started
 
