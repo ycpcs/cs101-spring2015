@@ -29,8 +29,8 @@ and submitting the labs will negatively impact your course grade.
 > Mar 31st  | [Lab 16: Grass Fire](lab16.html) | [CS101\_Lab16.zip](CS101_Lab16.zip)
 > Mar 31st  | [Lab 17: Fancy Output](lab17.html) | [CS101\_Lab17.zip](CS101_Lab17.zip)
 > Apr 7th | [Lab 18: Boing!](lab18.html) | [CS101\_Lab18.zip](CS101_Lab18.zip)
-> Apr 14th | Lab 19: TBD | TBD
-> Apr 16th | [Lab 20: Boing! revisited](lab20.html) | [CS101\_Lab20.zip](CS101_Lab19.zip)
+> Apr 14th | [Lab 20: Boing! revisited](lab20.html) | [CS101\_Lab20.zip](CS101_Lab19.zip)
+> Apr 16th | TBD | 
 > Apr 21st | [Lab 21: Boing! with pointers](lab21.html) | [CS101\_Lab21.zip](CS101_Lab20.zip)
 > Apr 23rd | Lab 22: TBD | TBD
 > Apr 28th | [Lab 22: Boing! particle simulation](lab22.html) | [CS101\_Lab22.zip](CS101_Lab21.zip)
