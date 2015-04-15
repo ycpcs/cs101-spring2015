@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 23: Boing! particle simulation"
+title: "Lab 24: Boing! particle simulation"
 ---
 
 In this lab, we will turn the bouncing character animation into a simulation of multiple particles moving with arbitrary directions/velocities.
@@ -10,18 +10,18 @@ Getting Started
 
 As always, you may refer to [Lab 1](lab01.html) if you need a reminder about how to start the **Cygwin Bash Shell** or **Notepad++**.
 
-Begin by downloading [CS101\_Lab23.zip](CS101_Lab23.zip). Save the zip file in the **H:\\CS101** directory.
+Begin by downloading [CS101\_Lab24.zip](CS101_Lab24.zip). Save the zip file in the **H:\\CS101** directory.
 
 Start the **Cygwin Bash Shell** and run the following commands:
 
     cd h:
     cd CS101
-    unzip CS101_Lab23.zip
-    cd CS101_Lab23
+    unzip CS101_Lab24.zip
+    cd CS101_Lab24
 
 Start the **Notepad++** text editor. Use it to open the files
 
-> **H:\\CS101\\CS101\_Lab23\\Boing4.cpp**
+> **H:\\CS101\\CS101\_Lab24\\Boing4.cpp**
 
 When you are ready to compile the program, in the Cygwin window type the command
 
@@ -45,7 +45,7 @@ Part 1
 
 The goal of the first part is to simulate multiple particles:
 
-> ![image](images/lab23/particles.gif)
+> ![image](images/lab24/particles.gif)
 
 [Note that the above animation repeats after 60 seconds.]
 
@@ -100,7 +100,7 @@ Part 2
 
 The goal of part 2 is to add a rectangular obstacle to the scene:
 
-> ![image](images/lab23/particlesWithObstacle.gif)
+> ![image](images/lab24/particlesWithObstacle.gif)
 
 [Animation repeats after 60 seconds.]
 

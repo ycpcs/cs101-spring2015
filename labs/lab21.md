@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Lab 21: Boing! with pointers"
+title: "Lab 21: Complex numbers"
 ---
 
-In this lab, we will implement a version of the bouncing character animation using a **Scene** struct type to represent the position and direction of the character. However, the accessor functions to initialize, render, and update the struct will use pointers to take an instance of **struct Scene**.
+In this lab you will define a struct type to represent complex numbers, create accessor functions to add, multiply, and find the magnitude of complex numbers, and then implement an interesting computation using complex numbers.
 
 Getting Started
 ===============
@@ -21,7 +21,7 @@ Start the **Cygwin Bash Shell** and run the following commands:
 
 Start the **Notepad++** text editor. Use it to open the files
 
-> **H:\\CS101\\CS101\_Lab21\\Boing3.cpp**
+> **H:\\CS101\\CS101\_Lab21\\Complex.cpp**
 
 When you are ready to compile the program, in the Cygwin window type the command
 
@@ -29,38 +29,75 @@ When you are ready to compile the program, in the Cygwin window type the command
 
 To run the program, in the Cygwin window type the command
 
-    ./Boing3.exe
+    ./Complex.exe
 
 Your Task
 =========
 
-The task is similar to [Lab 18](lab18.html) and [Lab 20](lab20.html): implement a bouncing character animation.
+There are three tasks.
 
-The main difference is that the **scene\_init**, **scene\_render**, and **scene\_update** functions will now have the following prototypes:
+First Task
+----------
 
-{% highlight cpp %}
-void scene_init(struct Scene *s);
-void scene_render(const struct Scene *s);
-void scene_update(struct Scene *s);
-{% endhighlight %}
+Define a struct data type called **Complex**. Instances of this type represent [complex numbers](http://en.wikipedia.org/wiki/Complex_number) consisting of a real component and an imaginary component.
 
-As you can see, the functions now take a pointer to the **struct Scene**.
+You should add two fields of type **double** to the struct, one to represent the real part of the complex number, one to represent the imaginary part.
 
-You will need to do three things to complete the program:
+Second Task
+-----------
 
--   Add fields to the **struct Scene** data type
--   Modify the **main** function to add calls to these functions, as indicated by the *TODO* comments
--   Implement these functions to match the prototypes
+At the top of **Complex.cpp** are six function prototypes declaring functions whose names begin with "complex\_". Implement these functions as follows:
 
-Hints
------
+**struct Complex complex\_create(double real, double imag)**  
+Return a **struct Complex** instance that has the given real and imaginary values.
 
-Since these functions take a pointer to a **struct Scene**, you will need to take the address of the **myScene** variable in **main** in order to pass it to these functions.
+**struct Complex complex\_add(struct Complex c1, struct Complex c2)**  
+Return the sum of the two complex numbers given as parameters. If **a** and **b** are the real and imaginary parts of **c1**, and **c** and **d** are the real and imaginary parts of **c2**, then the sum has **a**+**c** as its real part, and **b**+**d** as its imaginary part.
 
-Use the arrow (**-\>**) operator to access the fields of the **struct Scene** within the functions.
+**struct Complex complex\_multiply(struct Complex c1, struct Complex c2)**  
+Return the product of the two complex numbers given as parameters. If **a** and **b** are the real and imaginary parts of **c1**, and **c** and **d** are the real and imaginary parts of **c2**, then the product has **ac**-**bd** as its real part, and **bc**+**ad** as its imaginary part.
+
+**double complex\_magnitude(struct Complex c)**  
+Return the magnitude of the complex number given as the parameter. The magnitude is the square root of the sum of the squares of the real and imaginary parts.
+
+**double complex\_get\_real(struct Complex c)**  
+Returns the real part of the complex number given as the parameter.
+
+**double complex\_get\_imaginary(struct Complex c)**  
+Returns the imaginary part of the complex number given as the parameter.
+
+Once you implement these functions, you can test your implementation by running the program:
+
+The last line of output should read **All tests passed!**
+
+Third Task
+----------
+
+The [Mandelbrot Set](http://en.wikipedia.org/wiki/Mandelbrot_set) is a famous mathematical object. It is a set of complex numbers defined by an equation with complex numbers Z and C:
+
+> Z = Z<sup>2</sup> + C
+
+The complex number C is in the Mandelbrot sert if and only if the equation can be iterated an infinite number of times without the magnitude of Z ever reaching 2. "Iterating" the equation works as follows:
+
+-   The initial value of Z is real=0, imaginary=0
+-   From the current value of Z, we can compute a new value of Z by squaring the old value and adding C
+
+The third task is to complete the **mandelbrot\_num\_iters** function, whose prototype looks like this:
+
+    int mandelbrot_num_iters(struct Complex c, int max_iters);
+
+It takes a complex number, which represents C in the equation above. The function should return the number of times the equation (Z = Z<sup>2</sup> + C) can be iterated before the magnitude of Z reaches 2. If the number of iterations reaches **max\_iters**, then **max\_iters** should be returned: this caps the maximum number of iterations (because for points within the Mandelbrot set, the equation can be iterated an infinite number of times.)
+
+Once you implement this function, you can run the program and enter the value **2** when prompted. You should then see something similar to the following (click for full-size image):
+
+> <a href="images/lab21/mandelbrot.png"><img style="width: 600px;" alt="Mandelbrot set" src="images/lab21/mandelbrot.png"></a>
+
+Note that you will get a more accurate picture if you make the font smaller and the terminal window larger.
+
+What you are seeing is a graphical representation of part of the Mandelbrot set on the Complex plane. Each point is a complex number C, where the x coordinate is the real part, and the y coordinate is the imaginary part. Black locations are complex numbers that are in the set. The other colors represent how many iterations were required to show that a particular complex number was not in the set.
 
 Submitting
-==========
+----------
 
 When you are done, run the following command from the Cygwin bash shell:
 
