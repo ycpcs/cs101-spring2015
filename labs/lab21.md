@@ -68,6 +68,20 @@ Returns the imaginary part of the complex number given as the parameter.
 
 Once you implement these functions, you can test your implementation by running the program:
 
+<pre>
+(1) Run tests, or (2) Mandelbrot set? <b>1</b>
+complex_get_real (first test): passed
+complex_get_real (second test): passed
+complex_get_imaginary (first test): passed
+complex_get_imaginary (second test): passed
+complex_add (real part): passed
+complex_add (imaginary part): passed
+complex_multiply (real part): passed
+complex_multiply (imaginary part): passed
+complex_magnitude: passed
+All tests passed!
+</pre>
+
 The last line of output should read **All tests passed!**
 
 Third Task
