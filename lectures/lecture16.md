@@ -118,7 +118,7 @@ struct Complex makeComplex(double real, double imag)
     struct Complex result;
 
     result.real = real;
-    result.complex = complex;
+    result.complex = imag;
 
     return result;
 }
