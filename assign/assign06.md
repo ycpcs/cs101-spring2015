@@ -81,6 +81,8 @@ struct Point snake_get_head(const struct Snake *snake);
 struct Point snake_get_segment(const struct Snake *snake, int index);
 {% endhighlight %}
 
+You are welcome to define your own versions of these functions if you would like to.
+
 ## Implementing the snake
 
 A good way to represent the snake is using an array of segments, such that each segment is an x/y coordinate pair (e.g., a `struct Point`).  Because the number of segments varies (increasing each time the snake eats a piece of fruit), the snake struct type should use a counter field to keep track of how many segments there are.  The snake struct type should also keep track of which direction the snake is moving in.  Here is how I defined my `struct Snake` data type:
