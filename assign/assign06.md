@@ -26,15 +26,21 @@ You will add your code to this file.
 
 # Your Task
 
-Your task is to implement a [Snake](http://en.wikipedia.org/wiki/Snake_%28video_game%29) game:
-
-> ![snake game](images/snake.gif)
+Your task is to implement a [Snake](http://en.wikipedia.org/wiki/Snake_%28video_game%29) game.
 
 The play controls a snake.  The snake consists of some number of segments.  At each time step, the snake's head segment moves up, right, down, or left, and the other segments of the snake follow.  The player can control the direction of the snake's head using the arrow keys.  At all times, there is a piece of fruit on the playing field.  If the snake eats the fruit (i.e., the snake's head segment reaches the fruit), the snake grows by one segment.  When the fruit is eaten, a new piece of fruit appears in a random location.  If the snake's head goes out of bounds, or if the snake's head collides with one of the snake's body segments, the game is over.
 
-> TODO: animation showing snake going out of bounds
+Here is an animation showing gameplay:
 
-> TODO: animation showing snake's head colliding with its body
+> ![snake game](images/snake.gif)
+
+Here is an animation showing the player losing because the snake's head went out of bounds:
+
+> ![snake goes out of bounds](images/outofbounds.gif)
+
+Here is an animation showing the player losing because the snake's head collided with its body:
+
+> ![snake collides with its body](images/collideself.gif)
 
 You will use the terminal graphics functions: see [Lab 17](../labs/lab17.html), [Lab 18](../labs/lab18.html), [Lab 20](../labs/lab20.html), and especially [Lab 22](../labs/lab22.html).
 
