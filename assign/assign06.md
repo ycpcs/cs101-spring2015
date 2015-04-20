@@ -60,9 +60,18 @@ This is a substantial assignment.  Here is a suggested approach to getting all o
 
 # Hints, specifications, and requirements
 
-## Playing field
+## Playing field, rendering
 
-The playing field should be 80 characters wide by 23 characters high.  The 24<sup>th</sup> row of the terminal should be used to display the player's current score and how many segments the snake has.
+The playing field should be 80 characters wide by 23 characters high.  (This leaves one row in the terminal available for displaying the current score and number of segments.)
+
+The `scene_render` function should use the terminal graphics functions to render a visual representation of the game state, including:
+
+* The segments of the snake
+* The piece of fruit
+* The current score
+* The current number of segments
+
+The score and number of segments should be rendered in the last row of the terminal.
 
 ## `struct Scene`, `main` function
 
@@ -90,8 +99,8 @@ A good way to represent the snake is using an array of segments, such that each 
 {% highlight cpp %}
 struct Snake {
     struct Point segments[MAX_SEGMENTS];
-    int num_segments;
-    int dir;
+    int num_segments;  // how many segments the snake has
+    int dir;           // which direction the snake is moving in
 };
 {% endhighlight %}
 
@@ -111,17 +120,60 @@ In the `scene_update` function, call the `cons_get_keypress()` function.  If it 
 
 If the `q` key is pressed, then `scene_update` should return 0, causing the `main` function to finish (and the program to exit.)   Otherwise, `scene_update` should return 1 (causing `main` to keep running.)
 
+Note that the `cons_get_keypress()` function will return -1 if no key has been pressed.
+
 ## Scoring
 
 Each time the snake eats a piece of fruit, the player earns a number of points equal to 10 times the snake's current number of segments.
 
 # Grading
 
-Coming soon.
+Full credit for the assignment is 125 points.
+
+Your grade will be determined according to the following criteria:
+
+* `struct Scene` has representation of snake: 10
+* snake is displayed: 10
+* snake moves: 15
+* player can control snake: 15
+* game ends when snake goes out of bounds: 10
+* game ends when snake's head collides with its body: 10
+* `struct Scene` has representation of fruit: 5
+* fruit is placed randomly and doesn't overlap snake: 5
+* snake can eat the fruit: 5
+* snake grows by one segment when fruit is eaten: 10
+* score increases when fruit is eaten: 5
+* score is displayed: 5
+* number of segments is displayed: 5
+* pressing `q` ends the program: 5
+* good coding style: 10
+
+## Insane extra credit
+
+For up to 30 points of extra credit, implement one or more of the following enhancements:
+
+* Playing field has obstacles: if the snake hits an obstacle, the game is over
+* The player has multiple lives, and additional lives can be earned based on the player's score
+* The game speeds up slightly each time the snake eats a piece of fruit
+* There is an enemy snake controlled by the computer (hard)
+
+**Important**: Include a comment at the top of your program explaining which extra credit features you implemented.
 
 # Submitting
 
-Coming soon.
+To submit your work, make sure your `Snake.cpp` file is saved, and in the Cygwin window type the command
+
+    make submit
+
+Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
+
+**Important**: Make sure that you check the file(s) you submitted to ensure that they are correct. Log into the server using the following URL (also linked from the course homepage):
+
+> [https://cs.ycp.edu/marmoset](https://cs.ycp.edu/marmoset)
+
+You should see a list of labs and assignments. In the row for **assign06**, click the link labeled **view**. You will see a list of your submissions. Download the most recent one (which should be listed first). Verify that it contains the correct files.
+
+**You are responsible for making sure that your submission contains the correct file(s).**
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->

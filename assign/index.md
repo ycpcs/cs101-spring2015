@@ -12,7 +12,7 @@ Assignment | File | Due
 [Assignment 3: Take Me Out To The Ballgame](assign03.html) | [CS101\_Assign03.zip](CS101_Assign03.zip) | Friday, Mar 13th by 11:59 PM
 [Assignment 4: Calendar Computations](assign04.html) | [CS101\_Assign04.zip](CS101_Assign04.zip) | Thursday, March 26th by 11:59 PM
 [Assignment 5: Conway's Game of Life](assign05.html) | [CS101\_Assign05.zip](CS101_Assign05.zip) | Milestone 1: <strike>Friday, April 10th</strike> Monday, April 13th by 11:59 PM<br>Milestone 2: <strike>Friday, April 17th</strike> Monday, April 20th by 11:59 PM
-<!--[Assignment 6: Snake](assign06.html) | [CS101\_Assign06.zip](CS101_Assign06.zip) | Tuesday, May 5th by 11:59 PM-->
+[Assignment 6: Snake](assign06.html) | [CS101\_Assign06.zip](CS101_Assign06.zip) | Tuesday, May 5th by 11:59 PM
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
