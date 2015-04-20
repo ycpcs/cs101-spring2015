@@ -113,6 +113,14 @@ If the `q` key is pressed, then `scene_update` should return 0, causing the `mai
 
 Each time the snake eats a piece of fruit, the player earns a number of points equal to 10 times the snake's current number of segments.
 
+# Grading
+
+Coming soon.
+
+# Submitting
+
+Coming soon.
+
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
