@@ -32,5 +32,7 @@ and submitting the labs will negatively impact your course grade.
 > Apr 14th | [Lab 20: Boing! revisited](lab20.html) | [CS101\_Lab20.zip](CS101_Lab19.zip)
 > Apr 16th | [Lab 21: Complex numbers](lab21.html) | [CS101\_Lab21.zip](CS101_Lab21.zip)
 > Apr 21st | [Lab 22: Boing! with pointers](lab22.html) | [CS101\_Lab22.zip](CS101_Lab22.zip)
-> Apr 23rd | Lab 22: TBD | TBD
+> Apr 23rd | [Lab 23: Mini Golf](lab23.html) | [CS101\_Lab23.zip](CS101_Lab23.zip)
 > Apr 28th | [Lab 24: Boing! particle simulation](lab24.html) | [CS101\_Lab24.zip](CS101_Lab24.zip)
+> Apr 30th | TBD | 
+> May 5th | TBD | 
