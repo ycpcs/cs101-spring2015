@@ -23,6 +23,7 @@ All information about the course will be posted here.
 
 ## News
 
+* **Apr 22** - The [Schedule](schedule.html) has been modified: on Thursday, April 23rd, we will cover the material in both [Lecture 18](lectures/lecture18.html) and [Lecture 19](lectures/lecture19.html).
 * **Apr 20** - [Assignment 6](assign/assign06.html) is due Tuesday, May 5th by 11:59 PM.  It is the final assignment.
 * **Apr 9** - The due dates for the milestones for [Assignment 5](assign/assign05.html) have been extended to Monday, April 13th and Monday, April 20th respectively.
 * **Apr 1** - [Assignment 5](assign/assign05.html) has two milestones.  Milestone 1 is due Friday, April 10th by 11:59 PM, and Milestone 2 is due Friday, April 17th by 11:59 PM.
