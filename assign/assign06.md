@@ -42,7 +42,7 @@ Here is an animation showing the player losing because the snake's head collided
 
 > ![snake collides with its body](images/collideself.gif)
 
-You will use the terminal graphics functions: see [Lab 17](../labs/lab17.html), [Lab 18](../labs/lab18.html), [Lab 20](../labs/lab20.html), and especially [Lab 22](../labs/lab22.html).
+You will use the terminal graphics functions: see [Lab 17](../labs/lab17.html), [Lab 18](../labs/lab18.html), [Lab 20](../labs/lab20.html), and especially [Lab 22](../labs/lab22.html) and [Lab 23](../labs/lab23.html).
 
 # Approach
 
