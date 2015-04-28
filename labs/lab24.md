@@ -34,7 +34,7 @@ To run the program, in the Cygwin window type the command
 Your Task
 =========
 
-The task is similar to [Lab 18](lab18.html), [Lab 20](lab20.html), and [Lab 21](lab21.html), in which you implemented a bouncing character animation.
+The task is similar to [Lab 18](lab18.html), [Lab 20](lab20.html), and [Lab 22](lab22.html), in which you implemented a bouncing character animation.
 
 In this lab you will implement an animation of an arbitrary number of bouncing characters, which we will call *particles*. The particles can have arbitrary positions and directions/velocities. You will use floating-point values to represent positions and velocities, allowing more realistic motion.
 
