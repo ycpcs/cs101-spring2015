@@ -74,7 +74,7 @@ So, a program that reads text data from a file might look like this:
 {% highlight cpp %}
 FILE *in = fopen("myFile.txt", "r");
 if (!in) {
-    fprintf("Couldn't open the input file\n");
+    fprintf(stderr, "Couldn't open the input file\n");
     exit(1);
 }
 
