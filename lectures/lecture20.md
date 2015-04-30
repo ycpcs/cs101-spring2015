@@ -56,7 +56,7 @@ You will want to store the file handle in a variable.  The type of a file handl
 You will need to check the file handle returned by fopen to see if the file was actually opened.  You can treat the file handle value as though it were a boolean value: it will be true if the file was opened, or false if the file could not be opened.  E.g.:
 
 {% highlight cpp %}
-in = fopen("myfile.txt", "r");
+FILE *in = fopen("myfile.txt", "r");
 if (!in) {
     fprintf(stderr, "Couldn't open the input file\n");
     exit(1);
@@ -65,13 +65,14 @@ if (!in) {
 
 After you are done reading from or writing to a file, the program should close the file:
 
-fclose( filehandle )
+<pre>
+fclose( <i>filehandle</i> )
+</pre>
 
 So, a program that reads text data from a file might look like this:
 
 {% highlight cpp %}
-FILE *in;
-in = fopen("myFile.txt", "r");
+FILE *in = fopen("myFile.txt", "r");
 if (!in) {
     fprintf("Couldn't open the input file\n");
     exit(1);
