@@ -23,6 +23,7 @@ All information about the course will be posted here.
 
 ## News
 
+* **May 1** - The [Schedule](schedule.html) has been updated with readings for Tuesday, May 5th.
 * **Apr 28** - Exam 4 will take place in class on Thursday, May 7th.  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Apr 28** - The [Schedule](schedule.html) has been updated with a reading assignment for Thursday, April 30th.
 * **Apr 22** - The [Schedule](schedule.html) has been modified: on Thursday, April 23rd, we will cover the material in both [Lecture 18](lectures/lecture18.html) and [Lecture 19](lectures/lecture19.html).
