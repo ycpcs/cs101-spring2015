@@ -97,6 +97,18 @@ This assumes `in` is a variable containing the file handle of the file you're re
 
 You can stop reading lines from the file when a matching record is found, or when the call `fscanf` indicates that a record was not read successfully.
 
+# Submitting
+
+When you are done, run the following command from the Cygwin bash shell:
+
+    make submit
+
+You will be prompted for your Marmoset username and password, which you should have received by email. Note that your password will not appear on the screen.
+
+**Important**:
+
+> You **must** submit your work before leaving class. If you do not submit work, you will not receive any credit for the lab.
+
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
