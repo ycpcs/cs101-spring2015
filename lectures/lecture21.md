@@ -118,7 +118,19 @@ Prototype:
 int strcmp(const char s1[], const char s2[]);
 {% endhighlight %}
 
-Example:
+One of the most important uses of `strcmp` is to test whether a character array contains a particular string values:
+
+{% highlight cpp %}
+char command[MAXLEN];
+
+...
+
+if (strcmp(command, "quit") == 0) {
+    quit = true;
+}
+{% endhighlight %}
+
+Another example, this time showing ordering between compared strings:
 
 {% highlight cpp %}
 char s1[] = "Apples";
