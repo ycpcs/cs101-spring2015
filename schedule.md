@@ -43,5 +43,5 @@ Apr 21st | [Lecture 17: Pointers to structures](lectures/lecture17.html), Chapte
 Apr 23rd | [Lecture 18: Composition](lectures/lecture18.html), [Lecture 19: Arrays of structures](lectures/lecture19.html), Chapter 8, *Structures containing Structures* and *Structures containing Arrays*, *Arrays of Structures* | Week14 &rarr; | 
 Apr 28th |  Struct types, continued | Week15 &rarr; | 
 Apr 30th | [Lecture 20: File I/O](lectures/lecture20.html), Chapter 15 | Week15 &rarr; | &nbsp;
-May 5th | TBA | Week16 &rarr; | &nbsp;
+May 5th | [Lecture 21: Character strings](lectures/lecture21.html) | Week16 &rarr; | &nbsp;
 May 7th | **Exam 4** | Exam4Review &rarr; | &nbsp;
