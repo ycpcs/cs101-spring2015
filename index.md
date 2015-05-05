@@ -23,6 +23,7 @@ All information about the course will be posted here.
 
 ## News
 
+* **May 5** - The zipfile for [Assignment 6](assign/assign06.html) is missing a file, `submitToMarmoset.pl`, that is required to submit the assignment.  Please copy this file into your `CS101_Assign06` directory from any other CS 101 assignment or lab before you run `make submit`.
 * **May 1** - The [Schedule](schedule.html) has been updated with readings for Tuesday, May 5th.
 * **Apr 28** - Exam 4 will take place in class on Thursday, May 7th.  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Apr 28** - The [Schedule](schedule.html) has been updated with a reading assignment for Thursday, April 30th.
